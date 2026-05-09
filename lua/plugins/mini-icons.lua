@@ -5,14 +5,12 @@ return {
       include = { glyph = "󰉗 " },
     },
     extension = {
-      c = { glyph = " " },
-      cpp = { glyph = " " },
-      cc = { glyph = " " },
       h = { glyph = " " },
       hpp = { glyph = " " },
-      S = { glyph = " " },
-      s = { glyph = " " },
-      asm = { glyph = " " },
+    },
+    filetype = {
+      c = { glyph = " " },
+      cpp = { glyph = " " },
     },
   },
 }
