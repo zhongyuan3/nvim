@@ -2,7 +2,7 @@ return {
   {
     "LazyVim/LazyVim",
     opts = {
-      colorscheme = "rose-pine",
+      colorscheme = "onedark",
     },
   },
   {
@@ -26,6 +26,7 @@ return {
   {
     "rose-pine/neovim",
     name = "rose-pine",
+    lazy = true,
     opts = {
       styles = {
         bold = false,
@@ -33,5 +34,9 @@ return {
         transparency = false,
       },
     },
+  },
+  {
+    "navarasu/onedark.nvim",
+    lazy = true,
   },
 }
