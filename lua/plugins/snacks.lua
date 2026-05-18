@@ -3,7 +3,7 @@ return {
   opts = {
     scroll = { enabled = false },
     indent = {
-      enabled = false,
+      enabled = true,
       animate = {
         enabled = false,
       },
