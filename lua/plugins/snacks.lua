@@ -3,13 +3,11 @@ return {
   opts = {
     scroll = { enabled = false },
     indent = {
+      enabled = false,
       animate = {
         enabled = false,
       },
     },
-    terminal = {
-      enabled = true,
-      win = { style = "terminal" },
-    },
+    terminal = { enabled = true },
   },
 }
