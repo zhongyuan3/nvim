@@ -23,20 +23,4 @@ return {
       },
     },
   },
-  {
-    "rose-pine/neovim",
-    name = "rose-pine",
-    lazy = true,
-    opts = {
-      styles = {
-        bold = false,
-        italic = false,
-        transparency = false,
-      },
-    },
-  },
-  {
-    "navarasu/onedark.nvim",
-    lazy = true,
-  },
 }
