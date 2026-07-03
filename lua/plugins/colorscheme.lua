@@ -9,12 +9,28 @@ return {
     "catppuccin/nvim",
     name = "catppuccin",
     opts = {
-      no_italic = true,
+      styles = {
+        comments = {},
+        conditionals = {},
+        loops = {},
+        functions = {},
+        keywords = {},
+        strings = {},
+        variables = {},
+        numbers = {},
+        booleans = {},
+        properties = {},
+        types = {},
+        operators = {},
+        miscs = {},
+      },
     },
   },
   {
     "folke/tokyonight.nvim",
     opts = {
+      style = "storm",
+      light_style = "day",
       styles = {
         comments = { italic = false },
         keywords = { italic = false },
